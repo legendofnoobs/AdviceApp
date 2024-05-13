@@ -1,7 +1,7 @@
 const URL = "https://api.adviceslip.com/advice";
 
 const adviceId = document.querySelector("#adv-id");
-const adviceText = document.querySelector("#adv-text");
+const adviceText = document.querySelector("#adviceText");
 const btn = document.querySelector(".dice-container");
 
 getAdvice();
