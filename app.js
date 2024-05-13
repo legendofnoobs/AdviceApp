@@ -16,7 +16,7 @@ async function getAdvice() {
     const data = await response.json();
 
     adviceId.innerText = data.slip.id;
-    adviceText.innerText = `“${data.slip.advice}”`;
+    adviceText.innerText = `${data.slip.advice}`;
 }
 
 const diceRollAnimation = (btn) => {
